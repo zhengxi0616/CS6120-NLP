@@ -1,0 +1,30 @@
+Question 4.1 Building Grammaticality Scorer
+
+4.1.1
+I trained my classifiers with Support vector regression.
+The Grammaticality Scorer's MSE is 0.7564766839378239. The pearson is (0.20775594900478267, 0.0037412836241748322).
+
+
+4.1.2
+My first new feature is using the count of unique unigrams divide the number of sentences to see how many unique unigrams can appear in each sentence. The MSE for adding this feature is 0.7150259067357513 and the pearson is (0.2821574928897053, 7.023937045149804e-05), which is better because this feature sees if there's repetitives in a larger window.
+
+The second feature I use is using the minimum reading score divide by the number of entire unigrams. I want to see if the score is associated with the length of the summary. It gives the MSE 0.7564766839378239 and pearson (0.20775594900478267, 0.0037412836241748322), which is the same with the original one.
+
+Question 4.2 Building Non-Redundancy Scorer
+
+4.2.1
+I trained my classifiers with Support vector regression.
+The Non-Redundancy Scorer's MSE is 0.8031088082901554. The pearson is (0.11481526234107749, 0.111842589457841).
+
+4.2.2
+
+My first new feature is Maximum repetition of pos: find each token's pos, calculate the frequencies of all the pos associate with the tokens, and use the maximum value as a new feature value.
+This feature improves the Non-Redundancy Scorer's MSE to 0.7979274611398963. The pearson to (0.13338004311664917, 0.06442765910550147). The reason is that this feature shows the repeated use of a specific part-of-speech phrase, which slightly improve the performance.
+
+My second new feature is Maximum repetition of tag: find each token's tag, calculate the frequencies of all the tag associate with the tokens, and use the maximum value as a new feature value.
+Adding this feature leads the result that the MSE is 0.8031088082901554. The pearson is (0.12965330171063671, 0.07232078748755091), which slightly improve the correlation.
+
+Question 4.3 Building Coherence Scorer
+
+I trained my classifiers with Support vector regression.. For Coreference vectors, somehow everytime I use doc..corefclusters function, I got a deadkernel and can not generate the coreferred entities vector. Hence I'll build the noun chunks vector first.
+The MSE for using only repetitive noun phrases vector is 1.2124352331606219. The pearson is (nan, 1.0).

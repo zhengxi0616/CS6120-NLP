@@ -1,0 +1,35 @@
+Question 1.1
+The number of sentences is 78007.
+
+Question 1.2
+The average number of verbs per sentence is 1.4811106695552962. I use VERB tag and token.pos == VERB function to judge if a token is a verb.
+
+Question 1.3
+The total number of prepositions is 74832. The top three most commonly used preposition are ['of', 'for', 'in'].
+
+Question 1.4
+The total number of entities found in the overall corpus is 38741. ALL the unique entity labels are 
+{'CARDINAL',
+ 'DATE',
+ 'EVENT',
+ 'FAC',
+ 'GPE',
+ 'LANGUAGE',
+ 'LAW',
+ 'LOC',
+ 'MONEY',
+ 'NORP',
+ 'ORDINAL',
+ 'ORG',
+ 'PERCENT',
+ 'PERSON',
+ 'PRODUCT',
+ 'QUANTITY',
+ 'TIME',
+ 'WORK_OF_ART'}.
+
+Question 1.5
+1.If a sentence is not formal enough, for example, if it has several emojis formed by punctuations, the parsing model will get confused and failed to properly punctuate a sentence.
+2.If a sentence is very long, for example, it has numbers as bullets to list their opinions, the model may also get confused and tag incorrect syntactic relation between tokens.
+
+To solve errors like these two, before applying parsing models, we need to consider all these kinds of situations and write regular expressions to contains all these situations. After that, the model will know how to deal with these situations.

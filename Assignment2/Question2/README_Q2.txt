@@ -1,0 +1,1 @@
+Question2_answer.png and Question2_answer_xlsx are both answers for Question2. You can open either one of them to read my answer. I could not put the graph in the txt file so I use a picture or a excel file.
