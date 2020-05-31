@@ -1,0 +1,114 @@
+{<welt item="activate.v">: 
+['<head>activate</head>', '<head>activating</head>', '<head>activates</head>', '<head>activated</head>']}
+{<welt item="add.v">: 
+['<head>add</head>', '<head>added</head>', '<head>adding</head>', '<head>adds</head>']}
+{<welt item="appear.v">: 
+['<head>appear</head>', '<head>appearing</head>', '<head>appeared</head>', '<head>appears</head>']}
+{<welt item="argument.n">: 
+['<head>arguments</head>', '<head>argument</head>']}
+{<welt item="arm.n">: 
+['<head>arms</head>', '<head>arm</head>']}
+{<welt item="ask.v">: 
+['<head>asks</head>', '<head>asked</head>', '<head>ask</head>', '<head>asking</head>']}
+{<welt item="atmosphere.n">: 
+['<head>atmosphere</head>']}
+{<welt item="audience.n">: 
+['<head>audiences</head>', '<head>audience</head>']}
+{<welt item="bank.n">: 
+['<head>Bank</head>', '<head>bank</head>', '<head>banks</head>']}
+{<welt item="begin.v">: 
+['<head>begun</head>', '<head>begin</head>', '<head>beginning</head>', '<head>began</head>', '<head>Begin</head>', '<head>begins</head>']}
+{<welt item="climb.v">: 
+['<head>climbed</head>', '<head>climb</head>', '<head>climbs</head>', '<head>climbing</head>']}
+{<welt item="decide.v">: 
+['<head>deciding</head>', '<head>decides</head>', '<head>decided</head>', '<head>decide</head>']}
+{<welt item="degree.n">: 
+['<head>degree</head>', '<head>degrees</head>']}
+{<welt item="difference.n">: 
+['<head>differences</head>', '<head>difference</head>']}
+{<welt item="different.a">: 
+['<head>different</head>']}
+{<welt item="difficulty.n">: 
+['<head>difficulty</head>', '<head>difficulties</head>']}
+{<welt item="disc.n">: 
+['<head>disc</head>', '<head>discs</head>']}
+{<welt item="eat.v">: 
+['<head>eat</head>', '<head>eaten</head>', '<head>eats</head>', '<head>ate</head>', '<head>eating</head>']}
+{<welt item="encounter.v">: 
+['<head>encounters</head>', '<head>encountering</head>', '<head>encounter</head>', '<head>encountered</head>']}
+{<welt item="expect.v">: 
+['<head>expected</head>', '<head>expect</head>', '<head>expecting</head>', '<head>expects</head>']}
+{<welt item="express.v">: 
+['<head>expressing</head>', '<head>expresses</head>', '<head>express</head>', '<head>expressed</head>']}
+{<welt item="hear.v">: 
+['<head>hears</head>', '<head>hearing</head>', '<head>hear</head>', '<head>heard</head>']}
+{<welt item="hot.a">: 
+['<head>hot</head>']}
+{<welt item="image.n">: 
+['<head>image</head>', '<head>images</head>']}
+{<welt item="important.a">: 
+['<head>important</head>']}
+{<welt item="interest.n">: 
+['<head>interest</head>', '<head>interests</head>']}
+{<welt item="judgment.n">: 
+['<head>judgments</head>', '<head>judgment</head>']}
+{<welt item="lose.v">: 
+['<head>losing</head>', '<head>loses</head>', '<head>lose</head>', '<head>lost</head>']}
+{<welt item="mean.v">: 
+['<head>means</head>', '<head>meant</head>', '<head>mean</head>']}
+{<welt item="miss.v">: 
+['<head>missed</head>', '<head>misses</head>', '<head>missing</head>', '<head>miss</head>']}
+{<welt item="note.v">: 
+['<head>noted</head>', '<head>note</head>', '<head>noting</head>', '<head>notes</head>']}
+{<welt item="operate.v">: 
+['<head>operated</head>', '<head>operates</head>', '<head>operate</head>', '<head>operating</head>']}
+{<welt item="organization.n">: 
+['<head>organization</head>', '<head>organizations</head>']}
+{<welt item="paper.n">: 
+['<head>paper</head>', '<head>Paper</head>', '<head>papers</head>']}
+{<welt item="party.n">: 
+['<head>party</head>', '<head>parties</head>']}
+{<welt item="performance.n">: 
+['<head>performance</head>', '<head>performances</head>']}
+{<welt item="plan.n">: 
+['<head>plans</head>', '<head>plan</head>']}
+{<welt item="play.v">: 
+['<head>play</head>', '<head>plays</head>', '<head>playing</head>', '<head>played</head>']}
+{<welt item="produce.v">: 
+['<head>produced</head>', '<head>produces</head>', '<head>producing</head>', '<head>produce</head>']}
+{<welt item="provide.v">: 
+['<head>providing</head>', '<head>provide</head>', '<head>provides</head>', '<head>provided</head>']}
+{<welt item="receive.v">: 
+['<head>received</head>', '<head>receiving</head>', '<head>receive</head>', '<head>receives</head>']}
+{<welt item="remain.v">: 
+['<head>remains</head>', '<head>remaining</head>', '<head>remain</head>', '<head>remained</head>']}
+{<welt item="rule.v">: 
+['<head>rule</head>', '<head>ruled</head>', '<head>rules</head>', '<head>ruling</head>']}
+{<welt item="shelter.n">: 
+['<head>shelter</head>', '<head>shelters</head>']}
+{<welt item="simple.a">: 
+['<head>simple</head>']}
+{<welt item="smell.v">: 
+['<head>smelling</head>', '<head>smelled</head>', '<head>smells</head>', '<head>smell</head>', '<head>smelt</head>']}
+{<welt item="solid.a">: 
+['<head>solid</head>']}
+{<welt item="sort.n">: 
+['<head>sorts</head>', '<head>sort</head>']}
+{<welt item="source.n">: 
+['<head>sources</head>', '<head>source</head>']}
+{<welt item="suspend.v">: 
+['<head>suspends</head>', '<head>suspend</head>', '<head>suspended</head>', '<head>suspending</head>']}
+{<welt item="talk.v">: 
+['<head>talks</head>', '<head>talking</head>', '<head>talked</head>', '<head>talk</head>']}
+{<welt item="treat.v">: 
+['<head>treats</head>', '<head>treat</head>', '<head>treating</head>', '<head>treated</head>']}
+{<welt item="use.v">: 
+['<head>use</head>', '<head>used</head>', '<head>using</head>']}
+{<welt item="wash.v">: 
+['<head>washes</head>', '<head>washing</head>', '<head>washed</head>', '<head>wash</head>']}
+{<welt item="watch.v">: 
+['<head>watching</head>', '<head>watch</head>', '<head>watched</head>', '<head>watches</head>']}
+{<welt item="win.v">: 
+['<head>winning</head>', '<head>wins</head>', '<head>win</head>', '<head>won</head>']}
+{<welt item="write.v">: 
+['<head>wrote</head>', '<head>write</head>', '<head>writing</head>', '<head>written</head>']}
