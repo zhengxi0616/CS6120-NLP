@@ -1,0 +1,5 @@
+When λ=0.1, test01.txt has perplexity 549.0875200787602, while test02.txt has perplexity 219.55791746228195.
+
+When λ=0.3, test01.txt has perplexity 629.470804626108, while test02.txt has perplexity 295.00018220011725
+
+Same as the condition in question 3.2. test01's perplexity is much larger than test02's when λ=0.1 and λ=0.3. Also, when λ becomes larger, the perplexities become large too for both file. 

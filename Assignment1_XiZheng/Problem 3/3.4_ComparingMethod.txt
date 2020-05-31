@@ -1,0 +1,4 @@
+
+Linear polation is the easiest way to calculate the probability. You just need to count each element and do some basic calculation. But it has problem like there will be a lot of 0s for bigrams or trigrams. Also even if an event is not in the training data, it can occur in test data where Linear polation can only give this event a probability = 0.
+
+Add lambda smoothing is the most basic way to smooth a model. It decreases the number of 0s during calculation. But it is not a strict smoothing method, which leads to poor performance. As we can see in the problems, after adding lambdas, the perplexities for both test01 and test02 become larger than using linear polation.
