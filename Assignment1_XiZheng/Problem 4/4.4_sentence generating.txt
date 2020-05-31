@@ -1,0 +1,18 @@
+First, I generate the start word by only select candidate words that appears in the start positions. And then, I use the previous tag to generate tag, and use the tag to generate word. When the tag of a word is ‘.’, the function stops generating.
+
+Also, I set the max length of a sentence to be 41. So after the sentence append to the max length, it stops generating words as well.
+
+The 1st sentence is 
+['he|pps', '29th|od', 'last|ap', 'whoever|wps', "she's|pps+bez", 'right|nn-tl', 'up|rp', ':|:', "he's|pps+bez", 'such|abl', 'kennings|nns', ')|)', "'|'", "don't|do*", ';|.'] 
+with probability 1.4829323916154647e-58
+
+The 2nd sentence is ['naturally|ql-hl', 'little|ap-hl', 'to|to-hl', 'be|be-hl', 'larger|jjr-hl', '.|.-hl', 'those|dts', 'whatever|wdt', 'oneself|ppl', '``|``', "where'd|wrb+md", 'ye|ppss', ':|.'] 
+with probability 9.22193382424271e-43
+
+The 3rd sentence is ['no|at', 'wednesday|nr', 'even|ql', 'apparently|rb', 'UNK|bed', 'mayor|nn-tl', 'gables|nps', 'any|dti', 'e|nn-tl', '400|cd', 'UNK|abn', 'ought|md', "let's|vb+ppo", 'adventure|vb', 'we|ppss-tl', 'may|md-tl', 'have|hv-tl', 'him|ppo-tl', 'commissions|nns-tl', 'beside|in', "who's|wps+bez-tl", 'what|wps-tl', 'writes|vbz-tl', ',|,', 'this|dt', 'actively|ql', 'UNK|wrb', 'am|bem', 'interferometer|nn', 'most|ql-tl', 'congolese|jj-tl', 'an|at', 'laughed|vbd', 'those|dts', 'were|bed', 'easier|jjr', 'subjectively|ql', 'upper|jjr', '26|cd', '2d|od', 'all|abn', 'which|wdt'] 
+with probability 4.322610937072391e-178
+
+The 4th sentence is ['do|do', ';|.'] 
+with probability 6.1243648347980815e-06
+
+The 5th sentence is ['our|pp$', 'sixth|od', 'single|ap', '!|.'] with probability 1.0161588810230291e-14
